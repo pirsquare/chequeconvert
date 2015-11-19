@@ -12,6 +12,7 @@ Convert amount to word for cheque writing
 ```shell
 
 chequeconvert 501,932.03
-Output:
+
+  Output:
     Five Hundred And One Thousand Nine Hundred And Thirty Two And Cents Three Only
 ```
