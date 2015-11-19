@@ -6,8 +6,7 @@ from .base import generate_word
 def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-
-    subparser = parser.add_subparsers(dest='chequeconvert')
+    parser.add_argument("amt", type=str,
+                        help="Amount to convert in string")
     args = parser.parse_args(sys.argv[1:])
-    amt = getattr(args, args.chequeconvert)
-    print generate_word(amt)
+    print generate_word(args.amt)
