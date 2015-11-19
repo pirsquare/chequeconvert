@@ -11,6 +11,7 @@ Convert amount to word for cheque writing
 ## Examples
 ```shell
 
+# Works without commas as well. Comma is added for clarity
 chequeconvert 501,932.03
 
   Output:
