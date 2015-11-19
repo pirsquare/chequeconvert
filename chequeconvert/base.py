@@ -250,7 +250,7 @@ def generate_cent_word(num):
 
 def validate(amt):
     # amt MUST be in string to avoid accidental round off
-    if Decimal(amt) > Decimal(1e11):
+    if Decimal(amt) > Decimal(str(1e11)):
         raise Exception("Please enter an amount smaller than 100 billion")
 
     if len(get_index(amt.split('.'), 1, "")) > 2:
