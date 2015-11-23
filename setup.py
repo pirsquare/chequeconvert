@@ -4,7 +4,7 @@ from setuptools import setup
 import io
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 
 def fpath(name):
@@ -33,7 +33,7 @@ def get_requirements():
 setup_args = dict(
     name='chequeconvert',
     description='Convert amount to word for cheque writing',
-    url='https://github.com/pirsquare/chequeconvert',
+    url='https://github.com/pirsquare/chequeconvert-python',
     version=VERSION,
     license='MIT',
     packages=find_packages(exclude=['tests']),

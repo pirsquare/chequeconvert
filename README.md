@@ -1,5 +1,5 @@
 # ChequeConvert
-[![Build Status](https://travis-ci.org/pirsquare/chequeconvert.svg?branch=master)](https://travis-ci.org/pirsquare/chequeconvert)
+[![Build Status](https://travis-ci.org/pirsquare/chequeconvert-python.svg?branch=master)](https://travis-ci.org/pirsquare/chequeconvert-python)
 Convert amount to word for cheque writing
 
 
